@@ -1,0 +1,774 @@
+[
+    {
+        "id": 1,
+        "name": "Mario",
+        "source_game": "Super Mario",
+        "archetypes": ["all-rounder", "combo"],
+        "difficulty": "medium",
+        "PGR": 1.71,
+        "image": "images/mario.png"    
+    },
+    {
+        "id": 2,
+        "name": "Donkey Kong",
+        "source_game": "Donkey Kong",
+        "archetypes": ["heavy", "grappler"],
+        "difficulty": "easy",
+        "PGR": 0.68,
+        "image": "images/donkey_kong.png"     
+    },
+    {
+        "id": 3,
+        "name": "Link",
+        "source_game": "The Legend of Zelda",
+        "archetypes": ["zoner"],
+        "difficulty": "medium",
+        "PGR": 0.88,
+        "image": "images/link.png"
+    },
+    {
+        "id": 4,
+        "name": "Samus",
+        "source_game": "Metroid",
+        "archetypes": ["zoner"],
+        "difficulty": "easy",
+        "PGR": 2.20,
+        "image": "images/samus.png"
+    },
+    {
+        "id": 5,
+        "name": "Dark Samus",
+        "source_game": "Metroid",
+        "archetypes": ["zoner"],
+        "difficulty": "easy",
+        "PGR": 2.20,
+        "image": "images/dark_samus.png"
+    },
+    {
+        "id": 6,
+        "name": "Yoshi",
+        "source_game": "Super Mario",
+        "archetypes": ["all-rounder"],
+        "difficulty": "hard",
+        "PGR": 1.39,
+        "image": "images/yoshi.png"
+    },
+    {
+        "id": 7,
+        "name": "Kirby",
+        "source_game": "Kirby",
+        "archetypes": ["footsie", "glass cannon"],
+        "difficulty": "easy",
+        "PGR": 0.31,
+        "image": "images/kirby.png"
+    },
+    {
+        "id": 8,
+        "name": "Fox",
+        "source_game": "Star Fox",
+        "archetypes": ["all-rounder", "combo"],
+        "difficulty": "medium",
+        "PGR": 1.68,
+        "image": "images/fox.png"
+    },
+    {
+        "id": 9,
+        "name": "Pikachu",
+        "source_game": "Pokemon",
+        "archetypes": ["rushdown"],
+        "difficulty": "medium",
+        "PGR": 1.61,
+        "image": "images/pikachu.png"
+    },
+    {
+        "id": 10,
+        "name": "Luigi",
+        "source_game": "Super Mario",
+        "archetypes": ["all-rounder", "grappler"],
+        "difficulty": "medium",
+        "PGR": 1.65,
+        "image": "images/luigi.png"
+    },
+    {
+        "id": 11,
+        "name": "Ness",
+        "source_game": "Mother",
+        "archetypes": ["all-rounder"],
+        "difficulty": "medium",
+        "PGR": 1.68,
+        "image": "images/ness.png"
+    },
+    {
+        "id": 12,
+        "name": "Captain Falcon",
+        "source_game": "F-Zero",
+        "archetypes": ["rushdown"],
+        "difficulty": "easy",
+        "PGR": 1.74,
+        "image": "images/captain_falcon.png"
+    },
+    {
+        "id": 13,
+        "name": "Jigglypuff",
+        "source_game": "Super Mario",
+        "archetypes": ["glass cannon"],
+        "difficulty": "easy",
+        "PGR": 0.39,
+        "image": "images/jigglypuff.png"
+    },
+    {
+        "id": 14,
+        "name": "Peach",
+        "source_game": "Super Mario",
+        "archetypes": ["bait and punish"],
+        "difficulty": "medium",
+        "PGR": 1.61,
+        "image": "images/peach.png"
+    },
+    {
+        "id": 15,
+        "name": "Daisy",
+        "source_game": "Super Mario",
+        "archetypes": ["bait and punish"],
+        "difficulty": "medium",
+        "PGR": 1.61,
+        "image": "images/daisy.png"
+    },
+    {
+        "id": 16,
+        "name": "Bowser",
+        "source_game": "Super Mario",
+        "archetypes": ["heavy", "hit and run"],
+        "difficulty": "easy",
+        "PGR": 1.19,
+        "image": "images/bowser.png"
+    },
+    {
+        "id": 17,
+        "name": "Ice Climbers",
+        "source_game": "Ice Climber",
+        "archetypes": ["puppeteer", "footsie"],
+        "difficulty": "medium",
+        "PGR": 0.81,
+        "image": "images/ice_climbers.png"
+    },
+    {
+        "id": 18,
+        "name": "Sheik",
+        "source_game": "The Legend of Zelda",
+        "archetypes": ["rushdown"],
+        "difficulty": "hard",
+        "PGR": 1.42,
+        "image": "images/sheik.png"
+    },
+    {
+        "id": 19,
+        "name": "Zelda",
+        "source_game": "The Legend of Zelda",
+        "archetypes": ["trapper", "glass cannon"],
+        "difficulty": "easy",
+        "PGR": 0.39,
+        "image": "images/zelda.png"
+    },
+    {
+        "id": 20,
+        "name": "Dr. Mario",
+        "source_game": "Super Mario",
+        "archetypes": ["all-rounder", "combo"],
+        "difficulty": "medium",
+        "PGR": 0.52,
+        "image": "images/dr.mario.png"
+    },
+    {
+        "id": 21,
+        "name": "Pichu",
+        "source_game": "Pokemon",
+        "archetypes": ["rushdown", "glass cannon"],
+        "difficulty": "medium",
+        "PGR": 0.71,
+        "image": "images/pichu.png"
+    },
+    {
+        "id": 22,
+        "name": "Falco",
+        "source_game": "Star Fox",
+        "archetypes": ["mix-up"],
+        "difficulty": "medium",
+        "PGR": 1.36,
+        "image": "images/falco.png"
+    },
+    {
+        "id": 23,
+        "name": "Marth",
+        "source_game": "Fire Emblem",
+        "archetypes": ["rushdown", "swordie", "precision"],
+        "difficulty": "easy",
+        "PGR": 0.31,
+        "image": "images/marth.png"
+    },
+    {
+        "id": 24,
+        "name": "Lucina",
+        "source_game": "Fire Emblem",
+        "archetypes": ["swordie", "precision"],
+        "difficulty": "easy",
+        "PGR": 1.74,
+        "image": "images/lucina.png"
+    },
+    {
+        "id": 25,
+        "name": "Young Link",
+        "source_game": "The Legend of Zelda",
+        "archetypes": ["zoner", "combo", "glass cannon"],
+        "difficulty": "medium",
+        "PGR": 1.39,
+        "image": "images/young_link.png"
+    },
+    {
+        "id": 26,
+        "name": "Ganandorf",
+        "source_game": "The Legend of Zelda",
+        "archetypes": ["heavy"],
+        "difficulty": "easy",
+        "PGR": 0.06,
+        "image": "images/ganandorf.png"
+    },
+    {
+        "id": 27,
+        "name": "Mewtwo",
+        "source_game": "Pokemon",
+        "archetypes": ["glass cannon"],
+        "difficulty": "hard",
+        "PGR": 0.23,
+        "image": "images/mewtwo.png"
+    },
+    {
+        "id": 28,
+        "name": "Roy",
+        "source_game": "Fire Emblem",
+        "archetypes": ["rushdown"],
+        "difficulty": "easy",
+        "PGR": 3.36,
+        "image": "images/roy.png"
+    },
+    {
+        "id": 29,
+        "name": "Chrom",
+        "source_game": "Fire Emblem",
+        "archetypes": ["rushdown"],
+        "difficulty": "easy",
+        "PGR": 1.16,
+        "image": "images/chrom.png"
+    },
+    {
+        "id": 30,
+        "name": "Mr. Game & Watch",
+        "source_game": "Game & Watch",
+        "archetypes": ["all-rounder", "glass cannon"],
+        "difficulty": "medium",
+        "PGR": 1.32,
+        "image": "images/mr_game_and_watch.png"
+    },
+    {
+        "id": 31,
+        "name": "Meta Knight",
+        "source_game": "Kirby",
+        "archetypes": ["all-rounder", "combo"],
+        "difficulty": "medium",
+        "PGR": 0.55,
+        "image": "images/meta_knight.png"
+    },
+    {
+        "id": 32,
+        "name": "Pit",
+        "source_game": "Kid Icarus",
+        "archetypes": ["all-rounder"],
+        "difficulty": "easy",
+        "PGR": 0.31,
+        "image": "images/pit.png"    },
+    {
+        "id": 33,
+        "name": "Dark Pit",
+        "source_game": "Kid Icarus",
+        "archetypes": ["all-rounder"],
+        "difficulty": "easy",
+        "PGR": 0.31,
+        "image": "images/dark_pit.png"
+    },
+    {
+        "id": 34,
+        "name": "Zero Suit Samus",
+        "source_game": "Metroid",
+        "archetypes": ["hit and run"],
+        "difficulty": "medium",
+        "PGR": 1.10,
+        "image": "images/zero_suit_samus.png"
+    },
+    {
+        "id": 35,
+        "name": "Wario",
+        "source_game": "Super Mario",
+        "archetypes": ["bait and punish", "combo", "dynamic"],
+        "difficulty": "medium",
+        "PGR": 1.58,
+        "image": "images/wario.png"
+    },
+    {
+        "id": 36,
+        "name": "Snake",
+        "source_game": "Metal Gear",
+        "archetypes": ["trapper"],
+        "difficulty": "medium",
+        "PGR": 3.16,
+        "image": "images/snake.png"
+    },
+    {
+        "id": 37,
+        "name": "Ike",
+        "source_game": "Fire Emblem",
+        "archetypes": ["swordie", "footsie"],
+        "difficulty": "easy",
+        "PGR": 0.48,
+        "image": "images/ike.png"
+    },
+    {
+        "id": 38,
+        "name": "Pokemon Trainer",
+        "source_game": "Pokemon",
+        "archetypes": ["all-rounder", "combo"],
+        "difficulty": "medium",
+        "PGR": 1.61,
+        "image": "images/pokemon_trainer.png"
+    },
+    {
+        "id": 39,
+        "name": "Diddy Kong",
+        "source_game": "Donkey Kong",
+        "archetypes": ["mix-up", "combo", "bait and punish"],
+        "difficulty": "medium",
+        "PGR": 2.03,
+        "image": "images/diddy_kong.png"
+    },
+    {
+        "id": 40,
+        "name": "Lucas",
+        "source_game": "Mother",
+        "archetypes": ["mix-up"],
+        "difficulty": "medium",
+        "PGR": 0.68,
+        "image": "images/lucas.png"
+    },
+    {
+        "id": 41,
+        "name": "Sonic",
+        "source_game": "Sonic the Hedgehog",
+        "archetypes": ["hit and run"],
+        "difficulty": "medium",
+        "PGR": 2.32,
+        "image": "images/sonic.png"
+    },
+    {
+        "id": 42,
+        "name": "King Dedede",
+        "source_game": "Kirby",
+        "archetypes": ["heavy", "zoner"],
+        "difficulty": "easy",
+        "PGR": 0.39,
+        "image": "images/king_dedede.png"
+    },
+    {
+        "id": 43,
+        "name": "Olimar",
+        "source_game": "Pikmin",
+        "archetypes": ["dynamic"],
+        "difficulty": "hard",
+        "PGR": 1.59,
+        "image": "images/olimar.png"
+    },
+    {
+        "id": 44,
+        "name": "Lucario",
+        "source_game": "Pokemon",
+        "archetypes": ["dynamic"],
+        "difficulty": "medium",
+        "PGR": 0.39,
+        "image": "images/lucario.png"
+    },
+    {
+        "id": 45,
+        "name": "R.O.B",
+        "source_game": "R.O.B",
+        "archetypes": ["mix-up"],
+        "difficulty": "easy",
+        "PGR": 3.52,
+        "image": "images/ROB.png"
+    },
+    {
+        "id": 46,
+        "name": "Toon Link",
+        "source_game": "The Legend of Zelda",
+        "archetypes": ["zoner", "grappler"],
+        "difficulty": "medium",
+        "PGR": 0.90,
+        "image": "images/toon_link.png"
+    },
+    {
+        "id": 47,
+        "name": "Wolf",
+        "source_game": "Star Fox",
+        "archetypes": ["rushdown"],
+        "difficulty": "medium",
+        "PGR": 3.81,
+        "image": "images/wolf.png"
+    },
+    {
+        "id": 48,
+        "name": "Villager",
+        "source_game": "Animal Crossing",
+        "archetypes": ["zoner"],
+        "difficulty": "medium",
+        "PGR": 0.52,
+        "image": "images/villager.png"
+    },
+    {
+        "id": 50,
+        "name": "Mega Man",
+        "source_game": "Mega Man",
+        "archetypes": ["zoner"],
+        "difficulty": "easy",
+        "PGR": 1.36,
+        "image": "images/mega_man.png"
+    },
+    {
+        "id": 51,
+        "name": "Wii Fit Trainer",
+        "source_game": "Wii Fit",
+        "archetypes": ["hit and run", "zoner", "dynamic"],
+        "difficulty": "easy",
+        "PGR": 0.81,
+        "image": "images/wii_fit_trainer.png"
+    },
+    {
+        "id": 52,
+        "name": "Rosalina and Luma",
+        "source_game": "Super Mario",
+        "archetypes": ["puppeteer", "mix-up"],
+        "difficulty": "easy",
+        "PGR": 1.00,
+        "image": "images/rosalina_and_luma.png"
+    },
+    {
+        "id": 53,
+        "name": "Little Mac",
+        "source_game": "Punch-Out!!",
+        "archetypes": ["footsie", "glass cannon", "dynamic"],
+        "difficulty": "medium",
+        "PGR": 0.23,
+        "image": "images/little_mac.png"
+    },
+    {
+        "id": 54,
+        "name": "Greninja",
+        "source_game": "Pokemon",
+        "archetypes": ["hit and run", "footsie"],
+        "difficulty": "medium",
+        "PGR": 1.10,
+        "image": "images/greninja.png"
+    },
+    {
+        "id": 55,
+        "name": "Palutena",
+        "source_game": "Kid Icarus",
+        "archetypes": ["all-rounder", "combo"],
+        "difficulty": "easy",
+        "PGR": 3.55,
+        "image": "images/palutena.png"
+    },
+    {
+        "id": 56,
+        "name": "Pac-Man",
+        "source_game": "Pac-Man",
+        "archetypes": ["trapper"],
+        "difficulty": "medium",
+        "PGR": 1.39,
+        "image": "images/pac-man.png"
+    },
+    {
+        "id": 57,
+        "name": "Robin",
+        "source_game": "Fire Emblem",
+        "archetypes": ["trapper"],
+        "difficulty": "hard",
+        "PGR": 0.61,
+        "image": "images/robin.png"
+    },
+    {
+        "id": 58,
+        "name": "Shulk",
+        "source_game": "Xenoblade Chronicles",
+        "archetypes": ["dynamic"],
+        "difficulty": "medium",
+        "PGR": 1.32,
+        "image": "images/shulk.png"
+    },
+    {
+        "id": 59,
+        "name": "Bowser Jr.",
+        "source_game": "Super Mario",
+        "archetypes": ["hit and run", "bait and punish"],
+        "difficulty": "medium",
+        "PGR": 0.23,
+        "image": "images/bowser_jr.png"
+    },
+    {
+        "id": 60,
+        "name": "Duck Hunt",
+        "source_game": "Duck Hunt",
+        "archetypes": ["zoner"],
+        "difficulty": "hard",
+        "PGR": 0.52,
+        "image": "images/duck_hunt.png"
+    },
+    {
+        "id": 61,
+        "name": "Ryu",
+        "source_game": "Street Fighter",
+        "archetypes": ["fighting game character", "all-rounder", "footsie"],
+        "difficulty": "hard",
+        "PGR": 1.32,
+        "image": "images/ryu.png"
+    },
+    {
+        "id": 62,
+        "name": "Ken",
+        "source_game": "Street Fighter",
+        "archetypes": ["fighting game character", "all-rounder", "footsie"],
+        "difficulty": "hard",
+        "PGR": 1.19,
+        "image": "images/ken.png"
+    },
+    {
+        "id": 63,
+        "name": "Cloud",
+        "source_game": "Final Fantasy",
+        "archetypes": ["dynamic"],
+        "difficulty": "easy",
+        "PGR": 2.00,
+        "image": "images/cloud.png"
+    },
+    {
+        "id": 64,
+        "name": "Corrin",
+        "source_game": "Final Fantasy",
+        "archetypes": ["all-rounder", "combo"],
+        "difficulty": "easy",
+        "PGR": 0.55,
+        "image": "images/corrin.png"
+    },
+    {
+        "id": 65,
+        "name": "Bayonetta",
+        "source_game": "Bayonetta",
+        "archetypes": ["all-rounder", "combo"],
+        "difficulty": "hard",
+        "PGR": 1.19,
+        "image": "images/bayonetta.png"    },
+    {
+        "id": 66,
+        "name": "Inkling",
+        "source_game": "Splatoon",
+        "archetypes": ["trapper", "combo"],
+        "difficulty": "medium",
+        "PGR": 1.07,
+        "image": "images/inkling.png"
+    },
+    {
+        "id": 67,
+        "name": "Ridley",
+        "source_game": "Metroid",
+        "archetypes": ["precision"],
+        "difficulty": "medium",
+        "PGR": 0.58,
+        "image": "images/ridley.png"
+    },
+    {
+        "id": 68,
+        "name": "Simon",
+        "source_game": "Castlevania",
+        "archetypes": ["zoner"],
+        "difficulty": "medium",
+        "PGR": 0.55,
+        "image": "images/simon.png"
+    },
+    {
+        "id": 69,
+        "name": "Richter",
+        "source_game": "Castlevania",
+        "archetypes": ["zoner"],
+        "difficulty": "medium",
+        "PGR": 0.55,
+        "image": "images/richter.png"
+    },
+    {
+        "id": 70,
+        "name": "King K. Rool",
+        "source_game": "Donkey Kong",
+        "archetypes": ["heavy"],
+        "difficulty": "medium",
+        "PGR": 0.29,
+        "image": "images/king_k.rool.png"
+    },
+    {
+        "id": 71,
+        "name": "Isabelle",
+        "source_game": "Animal Crossing",
+        "archetypes": ["all-rounder", "combo"],
+        "difficulty": "medium",
+        "PGR": 0.61,
+        "image": "images/isabelle.png"
+    },
+    {
+        "id": 72,
+        "name": "Incineroar",
+        "source_game": "Pokemon",
+        "archetypes": ["grappler", "heavy"],
+        "difficulty": "medium",
+        "PGR": 0.94,
+        "image": "images/incineroar.png"
+    },
+    {
+        "id": 73,
+        "name": "Piranha Plant",
+        "source_game": "Super Mario",
+        "archetypes": ["trapper", "heavy"],
+        "difficulty": "easy",
+        "PGR": 0.23,
+        "image": "images/piranha_plant.png"
+    },
+    {
+        "id": 74,
+        "name": "Joker",
+        "source_game": "Persona",
+        "archetypes": ["rushdown", "dynamic"],
+        "difficulty": "easy",
+        "PGR": 2.42,
+        "image": "images/joker.png"
+    },
+    {
+        "id": 75,
+        "name": "Hero",
+        "source_game": "Dragon Quest",
+        "archetypes": ["dynamic"],
+        "difficulty": "medium",
+        "PGR": 0.58,
+        "image": "images/hero.png"
+    },
+    {
+        "id": 76,
+        "name": "Banjo and Kazooie",
+        "source_game": "Banjo-Kazooie",
+        "archetypes": ["all-rounder", "combo"],
+        "difficulty": "easy",
+        "PGR": 0.58,
+        "image": "images/banjo-kazooie.png"
+    },
+    {
+        "id": 77,
+        "name": "Terry",
+        "source_game": "Fatal Fury",
+        "archetypes": ["fighting game character", "all-rounder", "combo"],
+        "difficulty": "hard",
+        "PGR": 1.19,
+        "image": "images/terry.png"
+    },
+    {
+        "id": 78,
+        "name": "Byleth",
+        "source_game": "Fire Emblem",
+        "archetypes": ["all-rounder", "combo"],
+        "difficulty": "easy",
+        "PGR": 1.00,
+        "image": "images/byleth.png"
+    },
+    {
+        "id": 79,
+        "name": "Min Min",
+        "source_game": "Arms",
+        "archetypes": ["zoner"],
+        "difficulty": "medium",
+        "PGR": 1.91,
+        "image": "images/min_min.png"
+    },
+    {
+        "id": 80,
+        "name": "Steve",
+        "source_game": "Minecraft",
+        "archetypes": ["bait and punish", "combo", "mix-up", "dynamic"],
+        "difficulty": "medium",
+        "PGR": 2.42,
+        "image": "images/steve.png"
+    },
+    {
+        "id": 81,
+        "name": "Sephiroth",
+        "source_game": "Final Fantasy",
+        "archetypes": ["bait and punish"],
+        "difficulty": "medium",
+        "PGR": 1.65,
+        "image": "images/sephiroth.png"
+    },
+    {
+        "id": 82,
+        "name": "Pyra/Mythra",
+        "source_game": "Xenoblade Chronicles",
+        "archetypes": ["glass cannon"],
+        "difficulty": "easy",
+        "PGR": 3.07,
+        "image": "images/pyra_mythra.png"
+    },
+    {
+        "id": 83,
+        "name": "Kazuya",
+        "source_game": "Tekken",
+        "archetypes": ["fighting game character", "heavy"],
+        "difficulty": "medium",
+        "PGR": 1.52,
+        "image": "images/kazuya.png"
+    },
+    {
+        "id": 84,
+        "name": "Sora",
+        "source_game": "Kingdom Hearts",
+        "archetypes": ["hit and run", "combo"],
+        "difficulty": "easy",
+        "PGR": 1.36,
+        "image": "images/sora.png"
+    },
+    {
+        "id": 85,
+        "name": "Mii Brawler",
+        "source_game": "Mii",
+        "archetypes": ["all-rounder", "combo"],
+        "difficulty": "easy",
+        "PGR": 0.55,
+        "image": "images/mii_brawler.png"
+    },
+    {
+        "id": 86,
+        "name": "Mii Swordfighter",
+        "source_game": "Mii",
+        "archetypes": ["all-rounder", "combo"],
+        "difficulty": "easy",
+        "PGR": 0.19,
+        "image": "images/mii_swordfighter.png"
+    },
+    {
+        "id": 87,
+        "name": "Mii Gunner",
+        "source_game": "Mii",
+        "archetypes": ["all-rounder", "combo"],
+        "difficulty": "measy",
+        "PGR": 0.42,
+        "image": "images/mii_gunner.png"
+    }
+]

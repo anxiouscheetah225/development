@@ -1,16 +1,69 @@
-.App {
+body {
+  background-image: linear-gradient(crimson, gold);
+}
+
+header {
+  text-align: center;
+  /* background-image: url("../public/images/battlefield.png"); */
+}
+
+h1 {
+  font-family: articulat-heavy-cf, sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  height: 10vh;
+}
+
+h3 {
+  text-align: left;
+  text-indent: 7vw;
+  font-family: articulat-cf, sans-serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.container {
+  display: flex;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sortsAndFilters {
+  width: 25vw;
+  background-color: #777;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sorters {
+  padding-top: 5vh;
+}
+
+.sorters, .filters {
+  position: sticky;
+  top: 0vh;
+}
+
+.filters {
+  top: 20vh;
+}
+
+input {
+  position: absolute;
+  left: 5vw;
+}
+
+label {
+  position: absolute;
+  left: 7vw;
+
+  font-family: articulat-cf, sans-serif;
+  font-weight: 300;
+}
+
+.characters {
+  background-color: #aaa;
+  width: 75vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .App-header {
@@ -24,15 +77,6 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  text-align: left;
 }
