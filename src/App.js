@@ -295,9 +295,9 @@ function App() {
           <div className='PGR'>
             <h2>Total PGR Winshare of your Selected characters is 
               {selected.reduce((accumulator, curr) => {
-                accumulator + curr.PGR,
+                accumulator + curr.PGR},
                 0
-              })}
+              )}
             </h2>
           </div>
         </div>
