@@ -18,7 +18,7 @@ const Character = ({name, image, archetypes, difficulty, franchise, PGR, select}
                 </ul>
                 <h4>Learnability: {difficulty}</h4>
                 <h4>Winshare: {PGR}%</h4>
-                <button onClick={select}>Add Character</button>
+                <button className={CharCSS.addCharacter} onClick={select}>Add Character</button>
             </div>
         </div>
     )

@@ -80,3 +80,10 @@ label {
 input {
   text-align: left;
 }
+
+.total {
+  font-family: articulat-cf, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}

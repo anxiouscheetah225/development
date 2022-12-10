@@ -6,7 +6,8 @@ import characterData from './assets/characterData.json'
 
 function App() {
 
-  const pageLength = 90;
+  const pageLength = 15;
+  let g_counter = 0;
 
   //functions
   const sortByPGR = (a, b) => {
@@ -58,7 +59,7 @@ function App() {
 
   const filterBySelected = (array) => {
     let a = [...array]
-    a = a.filter(ele => selected.includes(ele.name))
+    a = a.filter(ele => selected.includes(ele))
     return a
   }
 
@@ -75,7 +76,7 @@ function App() {
         array = filterByArchetype(array)
       }
       else if (filter === 'selected' && selected.length > 0) {
-        array = filterByArchetype(array)
+        array = filterBySelected(array)
       }
     })
 
@@ -115,21 +116,52 @@ function App() {
   }
 
   const paginationFilter = (ele) => {
-    return (ele.id >= pageMin && ele.id < pageMax)
+    let result = false
+    console.log(pageMax)
+    if (ele.id > (page * pageMax) && g_counter < pageMax) {
+      result = true
+      g_counter++
+      // setCounter(counter + 1)
+    }
+
+    return result
+    // return (ele.id >= pageMin && ele.id < pageMax)
   }
 
   const incrementPage = () => {
-    if (pageMax < 90) {
-      setPageMin(pageMin + pageLength)
-      setPageMax(pageMax + pageLength)
+    // if (pageMax < 90) {
+    //   setPageMin(pageMin + pageLength)
+    //   setPageMax(pageMax + pageLength)
+    // }
+
+    if ((page + 1) * pageLength < 90) {
+      setPage(page + 1)
+      g_counter = 0
+      // setCounter(0)
     }
   }
 
   const decrementPage = () => {
-    if (pageMin > 0) {
-      setPageMin(pageMin - pageLength)
-      setPageMax(pageMax - pageLength)
+    // if (pageMin > 0) {
+    //   setPageMin(pageMin - pageLength)
+    //   setPageMax(pageMax - pageLength)
+    // }
+
+    if (page * pageLength > 0) {
+      setPage(page - 1)
+      g_counter = 0
+      // setCounter(0)
     }
+  }
+
+  const reduce = (array) => {
+    let total = 0;
+    console.log(array[0])
+    
+    array.forEach(ele => {
+      total += ele.PGR
+    })
+    return total.toFixed(2)
   }
 
   
@@ -148,6 +180,8 @@ function App() {
   const [selected, setSelected] = useState([])
 
   //for pagination
+  const [page, setPage] = useState(0)
+  const [counter, setCounter] = useState(0)
   const [pageMin, setPageMin] = useState(0)
   const [pageMax, setPageMax] = useState(pageLength)
 
@@ -155,14 +189,12 @@ function App() {
 
   useEffect(()=> {            //this won't work when I add a dependency array grrrrr
     filter()
-  }, [games, difficulties, archetypes, selected])
-
-
+  }, [games, difficulties, archetypes, selected, filters, page])
+  
   //render
   return (
     <div className="App">
       <header>
-          {/* <img src="images/mario.png" alt="testing"/> */}
           <h1>Super Smash Bros Ultimate Character Picker</h1>
       </header>
 
@@ -198,6 +230,11 @@ function App() {
 
             <h3>Selected Characters</h3>
             <input type="checkbox" id="selected" value="selected" onClick={() => {
+              if (!filters.includes('selected')) {
+                setFilters([...filters, 'selected'])
+              } else {
+                setFilters([...filters].filter(ele => ele != 'selected'))
+              }
               filter()
             }}/>
             <label>Selected Characters</label><br/>
@@ -285,7 +322,7 @@ function App() {
               archetypes={character.archetypes}
               difficulty={character.difficulty}
               PGR={character.PGR}
-              select={addSelected(character.name)}
+              select={()=> addSelected(character)}
             />
             })}
           <div className='buttons'>
@@ -293,12 +330,10 @@ function App() {
             <button onClick={() => incrementPage()}>next</button>
           </div>
           <div className='PGR'>
-            <h2>Total PGR Winshare of your Selected characters is 
-              {selected.reduce((accumulator, curr) => {
-                accumulator + curr.PGR},
-                0
-              )}
+            <h2 className='total'>The total PGR winshare of your selected characters is: <pre>
+              {reduce([...selected])}%</pre>
             </h2>
+            <p>*To view the characters you chose, turn on the "Selected Characters" filter</p>
           </div>
         </div>
       </div>
