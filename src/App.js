@@ -56,6 +56,12 @@ function App() {
     return a
   }
 
+  const filterBySelected = (array) => {
+    let a = [...array]
+    a = a.filter(ele => selected.includes(ele.name))
+    return a
+  }
+
   const filter = () => {
     let array = [...characterData]
     filters.forEach(filter => {
@@ -66,6 +72,9 @@ function App() {
         array = filterByDifficulty(array)
       }
       else if (filter === 'archetype' && archetypes.length > 0) {
+        array = filterByArchetype(array)
+      }
+      else if (filter === 'selected' && selected.length > 0) {
         array = filterByArchetype(array)
       }
     })
@@ -94,6 +103,14 @@ function App() {
       setArchetypes([...archetypes, archetype])
     } else {
       setArchetypes(archetypes.filter(ele => ele !== archetype))
+    }
+  }
+
+  const addSelected = (selected_item) => {
+    if (!selected.includes(selected_item)) {
+      setSelected([...selected, selected_item])
+    } else {
+      setSelected(selected.filter(ele => ele !== selected_item))
     }
   }
 
@@ -128,6 +145,7 @@ function App() {
   const [games, setGames] = useState([])
   const [difficulties, setDifficulties] = useState("")    //gotta look up radio unselect
   const [archetypes, setArchetypes] = useState([])
+  const [selected, setSelected] = useState([])
 
   //for pagination
   const [pageMin, setPageMin] = useState(0)
@@ -137,7 +155,7 @@ function App() {
 
   useEffect(()=> {            //this won't work when I add a dependency array grrrrr
     filter()
-  }, [games, difficulties, archetypes])
+  }, [games, difficulties, archetypes, selected])
 
 
   //render
@@ -177,6 +195,12 @@ function App() {
               filter()
             }}/>
             <label>Hard</label><br/>
+
+            <h3>Selected Characters</h3>
+            <input type="checkbox" id="selected" value="selected" onClick={() => {
+              filter()
+            }}/>
+            <label>Selected Characters</label><br/>
 
             <h3>Source Game</h3>
             <input type="checkbox" id="SMB" value="Super Mario" onClick={() => {
@@ -261,11 +285,20 @@ function App() {
               archetypes={character.archetypes}
               difficulty={character.difficulty}
               PGR={character.PGR}
+              select={addSelected(character.name)}
             />
             })}
           <div className='buttons'>
             <button onClick={() => decrementPage()}>prev</button>
             <button onClick={() => incrementPage()}>next</button>
+          </div>
+          <div className='PGR'>
+            <h2>Total PGR Winshare of your Selected characters is 
+              {selected.reduce((accumulator, curr) => {
+                accumulator + curr.PGR,
+                0
+              })}
+            </h2>
           </div>
         </div>
       </div>

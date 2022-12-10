@@ -1,6 +1,6 @@
 import CharCSS from "./Character.module.css"
 
-const Character = ({name, image, archetypes, difficulty, franchise, PGR}) => {
+const Character = ({name, image, archetypes, difficulty, franchise, PGR, select}) => {
     return(
         <div className={CharCSS.character}>
             <div className="image">
@@ -18,6 +18,7 @@ const Character = ({name, image, archetypes, difficulty, franchise, PGR}) => {
                 </ul>
                 <h4>Learnability: {difficulty}</h4>
                 <h4>Winshare: {PGR}%</h4>
+                <button onClick={select}>Add Character</button>
             </div>
         </div>
     )
