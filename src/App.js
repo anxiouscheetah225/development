@@ -6,7 +6,7 @@ import characterData from './assets/characterData.json'
 
 function App() {
 
-  const pageLength = 15;
+  const pageLength = 10;
   let g_counter = 0;
 
   //functions
