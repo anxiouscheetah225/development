@@ -21,7 +21,7 @@
         "id": 3,
         "name": "Link",
         "source_game": "The Legend of Zelda",
-        "archetypes": ["zoner"],
+        "archetypes": ["zoner", "combo"],
         "difficulty": "medium",
         "PGR": 0.88,
         "image": "images/link.png"
@@ -57,7 +57,7 @@
         "id": 7,
         "name": "Kirby",
         "source_game": "Kirby",
-        "archetypes": ["footsie", "glass cannon"],
+        "archetypes": ["all-rounder", "footsie", "glass cannon"],
         "difficulty": "easy",
         "PGR": 0.31,
         "image": "images/kirby.png"
@@ -66,7 +66,7 @@
         "id": 8,
         "name": "Fox",
         "source_game": "Star Fox",
-        "archetypes": ["all-rounder", "combo"],
+        "archetypes": ["rushdown", "glass cannon"],
         "difficulty": "medium",
         "PGR": 1.68,
         "image": "images/fox.png"
@@ -93,7 +93,7 @@
         "id": 11,
         "name": "Ness",
         "source_game": "Mother",
-        "archetypes": ["all-rounder"],
+        "archetypes": ["mix-up"],
         "difficulty": "medium",
         "PGR": 1.68,
         "image": "images/ness.png"
@@ -102,7 +102,7 @@
         "id": 12,
         "name": "Captain Falcon",
         "source_game": "F-Zero",
-        "archetypes": ["rushdown"],
+        "archetypes": ["rushdown", "bait and punish"],
         "difficulty": "easy",
         "PGR": 1.74,
         "image": "images/captain_falcon.png"
@@ -110,8 +110,8 @@
     {
         "id": 13,
         "name": "Jigglypuff",
-        "source_game": "Super Mario",
-        "archetypes": ["glass cannon"],
+        "source_game": "Pokemon",
+        "archetypes": ["hit and run", "glass cannon"],
         "difficulty": "easy",
         "PGR": 0.39,
         "image": "images/jigglypuff.png"
@@ -120,7 +120,7 @@
         "id": 14,
         "name": "Peach",
         "source_game": "Super Mario",
-        "archetypes": ["bait and punish"],
+        "archetypes": ["bait and punish", "combo"],
         "difficulty": "medium",
         "PGR": 1.61,
         "image": "images/peach.png"
@@ -129,7 +129,7 @@
         "id": 15,
         "name": "Daisy",
         "source_game": "Super Mario",
-        "archetypes": ["bait and punish"],
+        "archetypes": ["bait and punish", "combo"],
         "difficulty": "medium",
         "PGR": 1.61,
         "image": "images/daisy.png"
@@ -192,7 +192,7 @@
         "id": 22,
         "name": "Falco",
         "source_game": "Star Fox",
-        "archetypes": ["mix-up"],
+        "archetypes": ["combo"],
         "difficulty": "medium",
         "PGR": 1.36,
         "image": "images/falco.png"
@@ -201,7 +201,7 @@
         "id": 23,
         "name": "Marth",
         "source_game": "Fire Emblem",
-        "archetypes": ["rushdown", "swordie", "precision"],
+        "archetypes": ["swordie", "precision"],
         "difficulty": "easy",
         "PGR": 0.31,
         "image": "images/marth.png"
@@ -246,7 +246,7 @@
         "id": 28,
         "name": "Roy",
         "source_game": "Fire Emblem",
-        "archetypes": ["rushdown"],
+        "archetypes": ["rushdown", "swordie"],
         "difficulty": "easy",
         "PGR": 3.36,
         "image": "images/roy.png"
@@ -255,7 +255,7 @@
         "id": 29,
         "name": "Chrom",
         "source_game": "Fire Emblem",
-        "archetypes": ["rushdown"],
+        "archetypes": ["swordie", "rushdown"],
         "difficulty": "easy",
         "PGR": 1.16,
         "image": "images/chrom.png"
@@ -273,7 +273,7 @@
         "id": 31,
         "name": "Meta Knight",
         "source_game": "Kirby",
-        "archetypes": ["all-rounder", "combo"],
+        "archetypes": ["hit and run", "combo"],
         "difficulty": "medium",
         "PGR": 0.55,
         "image": "images/meta_knight.png"
@@ -316,7 +316,7 @@
     {
         "id": 36,
         "name": "Snake",
-        "source_game": "Metal Gear",
+        "source_game": "Metal Gear Solid",
         "archetypes": ["trapper"],
         "difficulty": "medium",
         "PGR": 3.16,
@@ -344,7 +344,7 @@
         "id": 39,
         "name": "Diddy Kong",
         "source_game": "Donkey Kong",
-        "archetypes": ["mix-up", "combo", "bait and punish"],
+        "archetypes": ["mix-up", "combo", "footsie", "bait and punish"],
         "difficulty": "medium",
         "PGR": 2.03,
         "image": "images/diddy_kong.png"
@@ -380,7 +380,7 @@
         "id": 43,
         "name": "Olimar",
         "source_game": "Pikmin",
-        "archetypes": ["dynamic"],
+        "archetypes": ["dynamic", "zoner"],
         "difficulty": "hard",
         "PGR": 1.59,
         "image": "images/olimar.png"
@@ -416,7 +416,7 @@
         "id": 47,
         "name": "Wolf",
         "source_game": "Star Fox",
-        "archetypes": ["rushdown"],
+        "archetypes": ["mix-up", "rushdown"],
         "difficulty": "medium",
         "PGR": 3.81,
         "image": "images/wolf.png"
@@ -479,7 +479,7 @@
         "id": 55,
         "name": "Palutena",
         "source_game": "Kid Icarus",
-        "archetypes": ["all-rounder", "combo"],
+        "archetypes": ["all-rounder", "mix-up"],
         "difficulty": "easy",
         "PGR": 3.55,
         "image": "images/palutena.png"
@@ -488,7 +488,7 @@
         "id": 56,
         "name": "Pac-Man",
         "source_game": "Pac-Man",
-        "archetypes": ["trapper"],
+        "archetypes": ["trapper", "combo"],
         "difficulty": "medium",
         "PGR": 1.39,
         "image": "images/pac-man.png"
@@ -515,7 +515,7 @@
         "id": 59,
         "name": "Bowser Jr.",
         "source_game": "Super Mario",
-        "archetypes": ["hit and run", "bait and punish"],
+        "archetypes": ["trapper", "hit and run", "bait and punish"],
         "difficulty": "medium",
         "PGR": 0.23,
         "image": "images/bowser_jr.png"
@@ -551,7 +551,7 @@
         "id": 63,
         "name": "Cloud",
         "source_game": "Final Fantasy",
-        "archetypes": ["dynamic"],
+        "archetypes": ["swordie", "dynamic"],
         "difficulty": "easy",
         "PGR": 2.00,
         "image": "images/cloud.png"
@@ -559,8 +559,8 @@
     {
         "id": 64,
         "name": "Corrin",
-        "source_game": "Final Fantasy",
-        "archetypes": ["all-rounder", "combo"],
+        "source_game": "Fire Emblem",
+        "archetypes": ["swordie"],
         "difficulty": "easy",
         "PGR": 0.55,
         "image": "images/corrin.png"
@@ -569,7 +569,7 @@
         "id": 65,
         "name": "Bayonetta",
         "source_game": "Bayonetta",
-        "archetypes": ["all-rounder", "combo"],
+        "archetypes": ["combo"],
         "difficulty": "hard",
         "PGR": 1.19,
         "image": "images/bayonetta.png"    },
@@ -586,7 +586,7 @@
         "id": 67,
         "name": "Ridley",
         "source_game": "Metroid",
-        "archetypes": ["precision"],
+        "archetypes": ["grappler"],
         "difficulty": "medium",
         "PGR": 0.58,
         "image": "images/ridley.png"
@@ -595,7 +595,7 @@
         "id": 68,
         "name": "Simon",
         "source_game": "Castlevania",
-        "archetypes": ["zoner"],
+        "archetypes": ["trapper", "zoner"],
         "difficulty": "medium",
         "PGR": 0.55,
         "image": "images/simon.png"
@@ -604,7 +604,7 @@
         "id": 69,
         "name": "Richter",
         "source_game": "Castlevania",
-        "archetypes": ["zoner"],
+        "archetypes": ["trapper", "zoner"],
         "difficulty": "medium",
         "PGR": 0.55,
         "image": "images/richter.png"
@@ -613,7 +613,7 @@
         "id": 70,
         "name": "King K. Rool",
         "source_game": "Donkey Kong",
-        "archetypes": ["heavy"],
+        "archetypes": ["heavy", "trapper", "grappler"],
         "difficulty": "medium",
         "PGR": 0.29,
         "image": "images/king_k.rool.png"
@@ -622,7 +622,7 @@
         "id": 71,
         "name": "Isabelle",
         "source_game": "Animal Crossing",
-        "archetypes": ["all-rounder", "combo"],
+        "archetypes": ["trapper", "zoner"],
         "difficulty": "medium",
         "PGR": 0.61,
         "image": "images/isabelle.png"
@@ -667,7 +667,7 @@
         "id": 76,
         "name": "Banjo and Kazooie",
         "source_game": "Banjo-Kazooie",
-        "archetypes": ["all-rounder", "combo"],
+        "archetypes": ["zoner", "combo"],
         "difficulty": "easy",
         "PGR": 0.58,
         "image": "images/banjo-kazooie.png"
@@ -685,7 +685,7 @@
         "id": 78,
         "name": "Byleth",
         "source_game": "Fire Emblem",
-        "archetypes": ["all-rounder", "combo"],
+        "archetypes": ["distance", "swordie"],
         "difficulty": "easy",
         "PGR": 1.00,
         "image": "images/byleth.png"
@@ -694,7 +694,7 @@
         "id": 79,
         "name": "Min Min",
         "source_game": "Arms",
-        "archetypes": ["zoner"],
+        "archetypes": ["distance", "zoner"],
         "difficulty": "medium",
         "PGR": 1.91,
         "image": "images/min_min.png"
@@ -712,7 +712,7 @@
         "id": 81,
         "name": "Sephiroth",
         "source_game": "Final Fantasy",
-        "archetypes": ["bait and punish"],
+        "archetypes": ["distance", "bait and punish"],
         "difficulty": "medium",
         "PGR": 1.65,
         "image": "images/sephiroth.png"
@@ -748,7 +748,7 @@
         "id": 85,
         "name": "Mii Brawler",
         "source_game": "Mii",
-        "archetypes": ["all-rounder", "combo"],
+        "archetypes": ["all-rounder", "rushdown"],
         "difficulty": "easy",
         "PGR": 0.55,
         "image": "images/mii_brawler.png"
@@ -757,7 +757,7 @@
         "id": 86,
         "name": "Mii Swordfighter",
         "source_game": "Mii",
-        "archetypes": ["all-rounder", "combo"],
+        "archetypes": ["swordie"],
         "difficulty": "easy",
         "PGR": 0.19,
         "image": "images/mii_swordfighter.png"
@@ -766,7 +766,7 @@
         "id": 87,
         "name": "Mii Gunner",
         "source_game": "Mii",
-        "archetypes": ["all-rounder", "combo"],
+        "archetypes": ["zoner"],
         "difficulty": "measy",
         "PGR": 0.42,
         "image": "images/mii_gunner.png"

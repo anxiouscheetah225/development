@@ -245,16 +245,86 @@ function App() {
               filter()
             }}/>
             <label>Super Mario Bros</label><br/>
-            <input type="checkbox" id="DK" value="Donkey Kong" onClick={() => {
-              addGame('Donkey Kong')
+            <input type="checkbox" id="pokemon" value="Pokemon" onClick={() => {
+              addGame('Pokemon')
               filter()
             }}/>
-            <label>Donkey Kong</label><br/>
+            <label>Pokemon</label><br/>
+            <input type="checkbox" id="minecraft" value="Minecraft" onClick={() => {
+              addGame('Minecraft')
+              filter()
+            }}/>
+            <label>Minecraft</label><br/>
             <input type="checkbox" id="zelda" value="Zelda" onClick={() => {
               addGame('The Legend of Zelda')
               filter()
             }}/>
             <label>Zelda</label><br/>
+            <input type="checkbox" id="starfox" value="Starfox" onClick={() => {
+              addGame('Star Fox')
+              filter()
+            }}/>
+            <label>Star Fox</label><br/>
+            <input type="checkbox" id="fire-emblem" value="Fire Emblem" onClick={() => {
+              addGame('Fire Emblem')
+              filter()
+            }}/>
+            <label>Fire Emblem</label><br/>
+            <input type="checkbox" id="final-fantasy" value="Final Fantasy" onClick={() => {
+              addGame('Final Fantasy')
+              filter()
+            }}/>
+            <label>Final Fantasy</label><br/>
+            <input type="checkbox" id="DK" value="Donkey Kong" onClick={() => {
+              addGame('Donkey Kong')
+              filter()
+            }}/>
+            <label>Donkey Kong</label><br/>
+            <input type="checkbox" id="metroid" value="Metroid" onClick={() => {
+              addGame('Metroid')
+              filter()
+            }}/>
+            <label>Metroid</label><br/>
+            <input type="checkbox" id="animal-crossing" value="Animal-Crossing" onClick={() => {
+              addGame('Animal Crossing')
+              filter()
+            }}/>
+            <label>Animal Crossing</label><br/>
+            <input type="checkbox" id="kirby" value="Kirby" onClick={() => {
+              addGame('Kirby')
+              filter()
+            }}/>
+            <label>Kirby</label><br/>
+            <input type="checkbox" id="kid-icarus" value="Kid Icarus" onClick={() => {
+              addGame('Kid Icarus')
+              filter()
+            }}/>
+            <label>Kid Icarus</label><br/>
+            <input type="checkbox" id="streetfighter" value="Street Fighter" onClick={() => {
+              addGame('Street Fighter')
+              filter()
+            }}/>
+            <label>Streetfighter</label><br/>
+            <input type="checkbox" id="tekken" value="Tekken" onClick={() => {
+              addGame('Tekken')
+              filter()
+            }}/>
+            <label>Tekken</label><br/>
+            <input type="checkbox" id="xenoblade" value="Xenoblade Chronicles" onClick={() => {
+              addGame('Xenoblade Chronicles')
+              filter()
+            }}/>
+            <label>Xenoblade Chronicles</label><br/>
+            <input type="checkbox" id="castlevania" value="Castlevania" onClick={() => {
+              addGame('Castlevania')
+              filter()
+            }}/>
+            <label>Castlevania</label><br/>
+            <input type="checkbox" id="kingdom-hearts" value="Kingdom Hearts" onClick={() => {
+              addGame('Kingdom Hearts')
+              filter()
+            }}/>
+            <label>Kingdom Hearts</label><br/>
 
             <h3>Archetype</h3>
             <input type="checkbox" id="all-rounder" value="all-rounder" onClick={() => {
@@ -282,6 +352,16 @@ function App() {
               filter()
             }}/>
             <label>Mix-Up</label><br/>
+            <input type="checkbox" id="footsie" value="footsie" onClick={() => {
+              addArchetype('footsie')
+              filter()
+            }}/>
+            <label>Footsie</label><br/>
+            <input type="checkbox" id="FGC" value="fighting game character" onClick={() => {
+              addArchetype('fighting game character')
+              filter()
+            }}/>
+            <label>Fighting Game Character (FGC)</label><br/>
             <input type="checkbox" id="hit and run" value="hit and run" onClick={() => {
               addArchetype('hit and run')
               filter()
@@ -297,11 +377,31 @@ function App() {
               filter()
             }}/>
             <label>Grappler</label><br/>
+            <input type="checkbox" id="distance" value="distance" onClick={() => {
+              addArchetype('distance')
+              filter()
+            }}/>
+            <label>Distance</label><br/>
             <input type="checkbox" id="trapper" value="trapper" onClick={() => {
               addArchetype('trapper')
               filter()
             }}/>
             <label>Trapper</label><br/>
+            <input type="checkbox" id="puppeter" value="puppeter" onClick={() => {
+              addArchetype('puppeter')
+              filter()
+            }}/>
+            <label>Puppeter</label><br/>
+            <input type="checkbox" id="glass-cannon" value="glass cannon" onClick={() => {
+              addArchetype('glass cannon')
+              filter()
+            }}/>
+            <label>Glass Cannon</label><br/>
+            <input type="checkbox" id="dynamic" value="dynamic" onClick={() => {
+              addArchetype('dynamic')
+              filter()
+            }}/>
+            <label>Dynamic</label><br/>
           </div> 
 
         </div>

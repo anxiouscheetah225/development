@@ -37,7 +37,7 @@ h3 {
 }
 
 .sorters, .filters {
-  position: sticky;
+  /* position: sticky; */
   top: 0vh;
 }
 
